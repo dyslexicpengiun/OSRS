@@ -1,0 +1,18 @@
+{
+  "gnome_stronghold": {
+    "xp_per_lap": 86,
+    "obstacles": 7
+  },
+  "draynor": {
+    "xp_per_lap": 120,
+    "obstacles": 6
+  },
+  "seers": {
+    "xp_per_lap": 570,
+    "obstacles": 6
+  },
+  "ardougne": {
+    "xp_per_lap": 793,
+    "obstacles": 7
+  }
+}

@@ -1,0 +1,1 @@
+"""firemaking scripts package."""

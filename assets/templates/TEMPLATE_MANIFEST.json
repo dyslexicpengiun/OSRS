@@ -1,0 +1,861 @@
+{
+  "_note": "Complete list of expected template files. Each entry is the relative path under assets/templates/. Mark each as 'captured': true when you have taken the screenshot.",
+  "inventory": {
+    "ores": [
+      {
+        "file": "inventory/tin_ore.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/copper_ore.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/iron_ore.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/coal.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/mithril_ore.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/adamantite_ore.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/runite_ore.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/pure_essence.png",
+        "captured": false
+      }
+    ],
+    "logs": [
+      {
+        "file": "inventory/logs.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/oak_logs.png",
+        "captured": true
+      },
+      {
+        "file": "inventory/willow_logs.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/maple_logs.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/yew_logs.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/magic_logs.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/teak_logs.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/mahogany_logs.png",
+        "captured": false
+      }
+    ],
+    "fish": [
+      {
+        "file": "inventory/raw_shrimps.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/raw_trout.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/raw_salmon.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/raw_lobster.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/raw_swordfish.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/raw_shark.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/raw_tuna.png",
+        "captured": false
+      }
+    ],
+    "food": [
+      {
+        "file": "inventory/salmon.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/lobster.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/shark.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/trout.png",
+        "captured": false
+      }
+    ],
+    "bones": [
+      {
+        "file": "inventory/bones.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/big_bones.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/dragon_bones.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/superior_dragon_bones.png",
+        "captured": false
+      }
+    ],
+    "bars_and_ores_processed": [
+      {
+        "file": "inventory/iron_bar.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/steel_bar.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/mithril_bar.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/adamant_bar.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/runite_bar.png",
+        "captured": false
+      }
+    ],
+    "planks": [
+      {
+        "file": "inventory/oak_plank.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/teak_plank.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/mahogany_plank.png",
+        "captured": false
+      }
+    ],
+    "tools": [
+      {
+        "file": "inventory/tinderbox.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/knife.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/needle.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/chisel.png",
+        "captured": false
+      }
+    ],
+    "pouches": [
+      {
+        "file": "inventory/small_pouch.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/medium_pouch.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/large_pouch.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/giant_pouch.png",
+        "captured": false
+      }
+    ],
+    "herbs_grimy": [
+      {
+        "file": "inventory/grimy_guam.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/grimy_ranarr.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/grimy_snapdragon.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/grimy_torstol.png",
+        "captured": false
+      }
+    ],
+    "herbs_clean": [
+      {
+        "file": "inventory/guam_leaf.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/ranarr_weed.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/snapdragon.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/torstol.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/irit_leaf.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/kwuarm.png",
+        "captured": false
+      }
+    ],
+    "potion_ingredients": [
+      {
+        "file": "inventory/vial_of_water.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/eye_of_newt.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/snape_grass.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/limpwurt_root.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/white_berries.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/red_spiders_eggs.png",
+        "captured": false
+      }
+    ],
+    "fletching": [
+      {
+        "file": "inventory/maple_log.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/yew_log.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/arrow_shaft.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/feather.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/rune_arrowhead.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/adamant_arrowhead.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/rune_arrow.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/maple_longbow_u.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/yew_longbow_u.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/adamant_bolts_unf.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/adamant_bolt_tips.png",
+        "captured": false
+      }
+    ],
+    "seeds": [
+      {
+        "file": "inventory/ranarr_seed.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/snapdragon_seed.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/torstol_seed.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/yew_sapling.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/magic_sapling.png",
+        "captured": false
+      }
+    ],
+    "misc": [
+      {
+        "file": "inventory/box_trap.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/hop_seeds.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/ultracompost.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/maple_birdhouse.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/yew_birdhouse.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/cosmic_talisman.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/nature_talisman.png",
+        "captured": false
+      },
+      {
+        "file": "inventory/fire_talisman.png",
+        "captured": false
+      }
+    ]
+  },
+  "objects": {
+    "rocks": [
+      {
+        "file": "objects/rocks/tin_rock_1.png",
+        "captured": false,
+        "note": "Tin rock \u2014 model variant 1 of 2"
+      },
+      {
+        "file": "objects/rocks/tin_rock_2.png",
+        "captured": false,
+        "note": "Tin rock \u2014 model variant 2 of 2"
+      },
+      {
+        "file": "objects/rocks/copper_rock_1.png",
+        "captured": false,
+        "note": "Copper rock \u2014 model variant 1 of 2"
+      },
+      {
+        "file": "objects/rocks/copper_rock_2.png",
+        "captured": false,
+        "note": "Copper rock \u2014 model variant 2 of 2"
+      },
+      {
+        "file": "objects/rocks/iron_rock_1.png",
+        "captured": false,
+        "note": "Iron rock \u2014 model variant 1 of 2"
+      },
+      {
+        "file": "objects/rocks/iron_rock_2.png",
+        "captured": false,
+        "note": "Iron rock \u2014 model variant 2 of 2"
+      },
+      {
+        "file": "objects/rocks/coal_rock_1.png",
+        "captured": false,
+        "note": "Coal rock \u2014 model variant 1 of 2"
+      },
+      {
+        "file": "objects/rocks/coal_rock_2.png",
+        "captured": false,
+        "note": "Coal rock \u2014 model variant 2 of 2"
+      },
+      {
+        "file": "objects/rocks/mithril_rock_1.png",
+        "captured": false,
+        "note": "Mithril rock \u2014 model variant 1 of 2"
+      },
+      {
+        "file": "objects/rocks/mithril_rock_2.png",
+        "captured": false,
+        "note": "Mithril rock \u2014 model variant 2 of 2"
+      },
+      {
+        "file": "objects/rocks/adamant_rock_1.png",
+        "captured": false,
+        "note": "Adamant rock \u2014 model variant 1 of 2"
+      },
+      {
+        "file": "objects/rocks/adamant_rock_2.png",
+        "captured": false,
+        "note": "Adamant rock \u2014 model variant 2 of 2"
+      },
+      {
+        "file": "objects/rocks/rune_rock_1.png",
+        "captured": false,
+        "note": "Rune rock \u2014 model variant 1 of 2"
+      },
+      {
+        "file": "objects/rocks/rune_rock_2.png",
+        "captured": false,
+        "note": "Rune rock \u2014 model variant 2 of 2"
+      }
+    ],
+    "trees": [
+      {
+        "file": "objects/trees/tree_normal_1.png",
+        "captured": true,
+        "note": "Normal Tree \u2014 model variant 1 of 3"
+      },
+      {
+        "file": "objects/trees/tree_normal_2.png",
+        "captured": true,
+        "note": "Normal Tree \u2014 model variant 2 of 3"
+      },
+      {
+        "file": "objects/trees/tree_normal_3.png",
+        "captured": true,
+        "note": "Normal Tree \u2014 model variant 3 of 3"
+      },
+      {
+        "file": "objects/trees/tree_oak_1.png",
+        "captured": true,
+        "note": "Oak Tree \u2014 model variant 1 of 3"
+      },
+      {
+        "file": "objects/trees/tree_oak_2.png",
+        "captured": true,
+        "note": "Oak Tree \u2014 model variant 2 of 3"
+      },
+      {
+        "file": "objects/trees/tree_oak_3.png",
+        "captured": true,
+        "note": "Oak Tree \u2014 model variant 3 of 3"
+      },
+      {
+        "file": "objects/trees/tree_willow_1.png",
+        "captured": false,
+        "note": "Willow Tree \u2014 model variant 1 of 3"
+      },
+      {
+        "file": "objects/trees/tree_willow_2.png",
+        "captured": false,
+        "note": "Willow Tree \u2014 model variant 2 of 3"
+      },
+      {
+        "file": "objects/trees/tree_willow_3.png",
+        "captured": false,
+        "note": "Willow Tree \u2014 model variant 3 of 3"
+      },
+      {
+        "file": "objects/trees/tree_maple_1.png",
+        "captured": false,
+        "note": "Maple Tree \u2014 model variant 1 of 3"
+      },
+      {
+        "file": "objects/trees/tree_maple_2.png",
+        "captured": false,
+        "note": "Maple Tree \u2014 model variant 2 of 3"
+      },
+      {
+        "file": "objects/trees/tree_maple_3.png",
+        "captured": false,
+        "note": "Maple Tree \u2014 model variant 3 of 3"
+      },
+      {
+        "file": "objects/trees/tree_yew_1.png",
+        "captured": false,
+        "note": "Yew Tree \u2014 model variant 1 of 3"
+      },
+      {
+        "file": "objects/trees/tree_yew_2.png",
+        "captured": false,
+        "note": "Yew Tree \u2014 model variant 2 of 3"
+      },
+      {
+        "file": "objects/trees/tree_yew_3.png",
+        "captured": false,
+        "note": "Yew Tree \u2014 model variant 3 of 3"
+      },
+      {
+        "file": "objects/trees/tree_magic_1.png",
+        "captured": false,
+        "note": "Magic Tree \u2014 model variant 1 of 3"
+      },
+      {
+        "file": "objects/trees/tree_magic_2.png",
+        "captured": false,
+        "note": "Magic Tree \u2014 model variant 2 of 3"
+      },
+      {
+        "file": "objects/trees/tree_magic_3.png",
+        "captured": false,
+        "note": "Magic Tree \u2014 model variant 3 of 3"
+      },
+      {
+        "file": "objects/trees/tree_teak_1.png",
+        "captured": false,
+        "note": "Teak Tree \u2014 model variant 1 of 2"
+      },
+      {
+        "file": "objects/trees/tree_teak_2.png",
+        "captured": false,
+        "note": "Teak Tree \u2014 model variant 2 of 2"
+      },
+      {
+        "file": "objects/trees/tree_mahogany_1.png",
+        "captured": false,
+        "note": "Mahogany Tree \u2014 model variant 1 of 2"
+      },
+      {
+        "file": "objects/trees/tree_mahogany_2.png",
+        "captured": false,
+        "note": "Mahogany Tree \u2014 model variant 2 of 2"
+      }
+    ],
+    "fishing_spots": [
+      {
+        "file": "objects/fishing/spot_net_1.png",
+        "captured": false,
+        "note": "Net fishing spot \u2014 animation frame 1 of 2"
+      },
+      {
+        "file": "objects/fishing/spot_net_2.png",
+        "captured": false,
+        "note": "Net fishing spot \u2014 animation frame 2 of 2"
+      },
+      {
+        "file": "objects/fishing/spot_cage_1.png",
+        "captured": false,
+        "note": "Cage fishing spot \u2014 animation frame 1 of 2"
+      },
+      {
+        "file": "objects/fishing/spot_cage_2.png",
+        "captured": false,
+        "note": "Cage fishing spot \u2014 animation frame 2 of 2"
+      },
+      {
+        "file": "objects/fishing/spot_bait_1.png",
+        "captured": false,
+        "note": "Bait fishing spot \u2014 animation frame 1 of 2"
+      },
+      {
+        "file": "objects/fishing/spot_bait_2.png",
+        "captured": false,
+        "note": "Bait fishing spot \u2014 animation frame 2 of 2"
+      },
+      {
+        "file": "objects/fishing/spot_lure_1.png",
+        "captured": false,
+        "note": "Lure fishing spot \u2014 animation frame 1 of 2"
+      },
+      {
+        "file": "objects/fishing/spot_lure_2.png",
+        "captured": false,
+        "note": "Lure fishing spot \u2014 animation frame 2 of 2"
+      },
+      {
+        "file": "objects/fishing/spot_harpoon_1.png",
+        "captured": false,
+        "note": "Harpoon fishing spot \u2014 animation frame 1 of 2"
+      },
+      {
+        "file": "objects/fishing/spot_harpoon_2.png",
+        "captured": false,
+        "note": "Harpoon fishing spot \u2014 animation frame 2 of 2"
+      },
+      {
+        "file": "objects/fishing/spot_rod_1.png",
+        "captured": false,
+        "note": "Rod fishing spot \u2014 animation frame 1 of 2"
+      },
+      {
+        "file": "objects/fishing/spot_rod_2.png",
+        "captured": false,
+        "note": "Rod fishing spot \u2014 animation frame 2 of 2"
+      }
+    ],
+    "agility": [
+      {
+        "file": "objects/agility/gnome_log.png",
+        "note": "Gnome Stronghold log balance",
+        "captured": false
+      },
+      {
+        "file": "objects/agility/gnome_net.png",
+        "captured": false
+      },
+      {
+        "file": "objects/agility/gnome_branch.png",
+        "captured": false
+      },
+      {
+        "file": "objects/agility/gnome_branch2.png",
+        "captured": false
+      },
+      {
+        "file": "objects/agility/gnome_pipe.png",
+        "captured": false
+      },
+      {
+        "file": "objects/agility/draynor_wall.png",
+        "captured": false
+      },
+      {
+        "file": "objects/agility/draynor_rope1.png",
+        "captured": false
+      },
+      {
+        "file": "objects/agility/varrock_wall.png",
+        "captured": false
+      },
+      {
+        "file": "objects/agility/canifis_tree.png",
+        "captured": false
+      },
+      {
+        "file": "objects/agility/falador_wall.png",
+        "captured": false
+      },
+      {
+        "file": "objects/agility/seers_wall.png",
+        "captured": false
+      },
+      {
+        "file": "objects/agility/ardy_beam.png",
+        "captured": false
+      }
+    ],
+    "altars": [
+      {
+        "file": "objects/altars/air_altar.png",
+        "captured": false
+      },
+      {
+        "file": "objects/altars/fire_altar.png",
+        "captured": false
+      },
+      {
+        "file": "objects/altars/nature_altar.png",
+        "captured": false
+      },
+      {
+        "file": "objects/altars/law_altar.png",
+        "captured": false
+      },
+      {
+        "file": "objects/altars/air_ruins.png",
+        "captured": false
+      },
+      {
+        "file": "objects/altars/nature_ruins.png",
+        "captured": false
+      }
+    ],
+    "farming": [
+      {
+        "file": "objects/farming/herb_patch.png",
+        "captured": false
+      },
+      {
+        "file": "objects/farming/tree_patch.png",
+        "captured": false
+      }
+    ],
+    "construction": [
+      {
+        "file": "objects/construction/oak_larder_hotspot.png",
+        "captured": false
+      },
+      {
+        "file": "objects/construction/oak_larder_built.png",
+        "captured": false
+      },
+      {
+        "file": "objects/construction/mahogany_table_hotspot.png",
+        "captured": false
+      },
+      {
+        "file": "objects/construction/mahogany_table_built.png",
+        "captured": false
+      },
+      {
+        "file": "objects/construction/bell_pull.png",
+        "captured": false
+      }
+    ],
+    "misc": [
+      {
+        "file": "objects/bank_booth.png",
+        "captured": false
+      },
+      {
+        "file": "objects/gilded_altar.png",
+        "captured": false
+      },
+      {
+        "file": "objects/box_trap_set.png",
+        "captured": false
+      },
+      {
+        "file": "objects/box_trap_caught.png",
+        "captured": false
+      },
+      {
+        "file": "objects/box_trap_failed.png",
+        "captured": false
+      },
+      {
+        "file": "objects/birdhouse_maple.png",
+        "captured": false
+      },
+      {
+        "file": "objects/birdhouse_yew.png",
+        "captured": false
+      },
+      {
+        "file": "objects/furnace.png",
+        "captured": false
+      },
+      {
+        "file": "objects/anvil.png",
+        "captured": false
+      },
+      {
+        "file": "objects/range.png",
+        "captured": false
+      },
+      {
+        "file": "objects/fire.png",
+        "captured": false
+      }
+    ]
+  },
+  "interfaces": [
+    {
+      "file": "interfaces/bank_bg.png",
+      "note": "Bank background pattern for bank-open detection",
+      "captured": false
+    },
+    {
+      "file": "interfaces/make_all_btn.png",
+      "note": "Make-All / Make-X button in crafting interfaces",
+      "captured": false
+    },
+    {
+      "file": "interfaces/level_up_popup.png",
+      "note": "Level-up congratulation popup (any skill)",
+      "captured": false
+    },
+    {
+      "file": "interfaces/random_event.png",
+      "note": "Random event dialog background",
+      "captured": false
+    },
+    {
+      "file": "interfaces/deposit_all.png",
+      "note": "Bank deposit all button",
+      "captured": false
+    }
+  ],
+  "npcs": [
+    {
+      "file": "npcs/man.png",
+      "captured": false
+    },
+    {
+      "file": "npcs/woman.png",
+      "captured": false
+    },
+    {
+      "file": "npcs/master_farmer.png",
+      "captured": false
+    },
+    {
+      "file": "npcs/knight.png",
+      "captured": false
+    },
+    {
+      "file": "npcs/ardy_knight.png",
+      "captured": false
+    }
+  ],
+  "random_events": [
+    {
+      "file": "random_events/mysterious_old_man.png",
+      "captured": false
+    },
+    {
+      "file": "random_events/certer.png",
+      "captured": false
+    },
+    {
+      "file": "random_events/frog.png",
+      "captured": false
+    },
+    {
+      "file": "random_events/evil_bob.png",
+      "captured": false
+    },
+    {
+      "file": "random_events/drill_demon.png",
+      "captured": false
+    },
+    {
+      "file": "random_events/genie.png",
+      "captured": false
+    }
+  ]
+}

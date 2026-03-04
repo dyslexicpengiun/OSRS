@@ -1,0 +1,127 @@
+{
+  "rocks": {
+    "tin_rock": {
+      "ids": [
+        11360,
+        11361
+      ],
+      "respawn_s": 3
+    },
+    "copper_rock": {
+      "ids": [
+        11161,
+        11162
+      ],
+      "respawn_s": 3
+    },
+    "iron_rock": {
+      "ids": [
+        11364,
+        11365
+      ],
+      "respawn_s": 9
+    },
+    "coal_rock": {
+      "ids": [
+        11552,
+        11553
+      ],
+      "respawn_s": 30
+    },
+    "mithril_rock": {
+      "ids": [
+        11370,
+        11371
+      ],
+      "respawn_s": 120
+    },
+    "adamant_rock": {
+      "ids": [
+        11372,
+        11373
+      ],
+      "respawn_s": 240
+    },
+    "rune_rock": {
+      "ids": [
+        11374,
+        11375
+      ],
+      "respawn_s": 1200
+    }
+  },
+  "trees": {
+    "normal_tree": {
+      "ids": [
+        1276,
+        1278
+      ],
+      "respawn_s": 4
+    },
+    "oak_tree": {
+      "ids": [
+        1281,
+        1283
+      ],
+      "respawn_s": 12
+    },
+    "willow_tree": {
+      "ids": [
+        1308,
+        1307
+      ],
+      "respawn_s": 9
+    },
+    "maple_tree": {
+      "ids": [
+        1307,
+        1306
+      ],
+      "respawn_s": 58
+    },
+    "yew_tree": {
+      "ids": [
+        1309,
+        38627
+      ],
+      "respawn_s": 99
+    },
+    "magic_tree": {
+      "ids": [
+        1306,
+        1307
+      ],
+      "respawn_s": 400
+    }
+  },
+  "bank_booths": {
+    "ids": [
+      10583,
+      24101,
+      34810,
+      26972
+    ]
+  },
+  "furnaces": {
+    "ids": [
+      24009,
+      9004,
+      11010
+    ]
+  },
+  "anvils": {
+    "ids": [
+      2097,
+      2098
+    ]
+  },
+  "altars": {
+    "gilded_altar": {
+      "ids": [
+        13197,
+        13198,
+        13199
+      ]
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "man": {
+    "ids": [
+      1,
+      2,
+      3
+    ],
+    "combat": 2
+  },
+  "farmer": {
+    "ids": [
+      7,
+      25
+    ],
+    "combat": 7
+  },
+  "guard": {
+    "ids": [
+      32,
+      368,
+      369
+    ],
+    "combat": 22
+  },
+  "knight": {
+    "ids": [
+      3812
+    ],
+    "combat": 55
+  },
+  "paladin": {
+    "ids": [
+      3819
+    ],
+    "combat": 100
+  },
+  "hero": {
+    "ids": [
+      3820
+    ],
+    "combat": 121
+  },
+  "elf": {
+    "ids": [
+      3824
+    ],
+    "combat": 108
+  },
+  "master_farmer": {
+    "ids": [
+      2234,
+      2235
+    ],
+    "combat": 38
+  }
+}

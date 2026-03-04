@@ -1,0 +1,50 @@
+{
+  "995": {
+    "name": "Coins",
+    "stackable": true
+  },
+  "526": {
+    "name": "Bones",
+    "stackable": false
+  },
+  "1513": {
+    "name": "Yew logs",
+    "stackable": false
+  },
+  "1519": {
+    "name": "Magic logs",
+    "stackable": false
+  },
+  "1501": {
+    "name": "Maple logs",
+    "stackable": false
+  },
+  "438": {
+    "name": "Iron ore",
+    "stackable": false
+  },
+  "440": {
+    "name": "Coal",
+    "stackable": false
+  },
+  "444": {
+    "name": "Gold ore",
+    "stackable": false
+  },
+  "453": {
+    "name": "Runite ore",
+    "stackable": false
+  },
+  "592": {
+    "name": "Dragon bones",
+    "stackable": false
+  },
+  "2353": {
+    "name": "Pure essence",
+    "stackable": false
+  },
+  "1761": {
+    "name": "Grimy ranarr weed",
+    "stackable": false
+  }
+}

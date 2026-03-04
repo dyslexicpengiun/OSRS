@@ -1,0 +1,20 @@
+{
+  "prayer_potion": {
+    "herb": "ranarr_weed",
+    "secondary": "snape_grass",
+    "result": "prayer_potion(3)",
+    "xp": 87.5
+  },
+  "super_restore": {
+    "herb": "snapdragon",
+    "secondary": "red_spiders_eggs",
+    "result": "super_restore(3)",
+    "xp": 142.5
+  },
+  "saradomin_brew": {
+    "herb": "toadflax",
+    "secondary": "crushed_nest",
+    "result": "saradomin_brew(3)",
+    "xp": 180
+  }
+}

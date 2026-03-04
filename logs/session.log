@@ -1,0 +1,526 @@
+2026-03-03 17:01:26,856 [INFO] core.engine: [Engine] Initializing subsystems...
+2026-03-03 17:01:26,860 [WARNING] easyocr.easyocr: Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+2026-03-03 17:01:29,111 [INFO] easyocr.easyocr: Download complete
+2026-03-03 17:01:29,111 [WARNING] easyocr.easyocr: Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+2026-03-03 17:01:29,840 [INFO] easyocr.easyocr: Download complete.
+2026-03-03 17:01:31,040 [DEBUG] core.pathfinding: [Pathfinding] Loaded 62 locations
+2026-03-03 17:01:31,040 [INFO] core.engine: [Engine] All subsystems initialized.
+2026-03-03 17:01:31,040 [INFO] core.engine: [Engine] Starting...
+2026-03-03 17:01:31,042 [INFO] core.engine: [Engine] Game window found: 'RuneLite'
+2026-03-03 17:01:31,079 [INFO] core.engine: [Engine] Ready.
+2026-03-03 17:01:31,085 [INFO] WoodcuttingScript: [WoodcuttingScript] Starting...
+2026-03-03 17:01:31,087 [INFO] WoodcuttingScript: [WoodcuttingScript] Woodcutting script starting. Tree: normal
+2026-03-03 17:01:31,116 [INFO] gui.hub: [Hub] Started: Woodcutting
+2026-03-03 17:01:34,079 [INFO] WoodcuttingScript: [WoodcuttingScript] Setup complete. Entering main loop.
+2026-03-03 17:01:34,083 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:01:36,085 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:01:38,087 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:01:40,090 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:01:42,092 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:01:44,094 [DEBUG] core.antiban: [AntiBan] Micro break: 6.1s
+2026-03-03 17:01:50,181 [DEBUG] core.antiban: [AntiBan] AFK event: 10.9s
+2026-03-03 17:02:01,081 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:02:03,083 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:02:05,085 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:02:07,087 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:02:09,090 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:02:11,092 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:02:11,093 [ERROR] WoodcuttingScript: Too many errors. Stopping script.
+2026-03-03 17:02:11,094 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Trees chopped: 0
+2026-03-03 17:02:11,094 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Runtime: 0:00:40 | Actions: 0 | Errors: 11
+2026-03-03 17:02:22,273 [INFO] WoodcuttingScript: [WoodcuttingScript] Stop requested.
+2026-03-03 17:04:55,170 [INFO] WoodcuttingScript: [WoodcuttingScript] Starting...
+2026-03-03 17:04:55,170 [INFO] WoodcuttingScript: [WoodcuttingScript] Woodcutting script starting. Tree: normal
+2026-03-03 17:04:55,172 [INFO] gui.hub: [Hub] Started: Woodcutting
+2026-03-03 17:04:58,143 [INFO] WoodcuttingScript: [WoodcuttingScript] Setup complete. Entering main loop.
+2026-03-03 17:04:58,143 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:05:00,145 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:05:02,147 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:05:04,149 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:05:06,151 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:05:08,153 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:05:10,155 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:05:12,157 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:05:14,160 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:05:16,163 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:05:18,165 [ERROR] WoodcuttingScript: [WoodcuttingScript] Unhandled error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+Traceback (most recent call last):
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\base_script.py", line 147, in run
+    should_continue = self.loop()
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 82, in loop
+    return self._find_and_click_tree(screen)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\scripts\woodcutting\woodcutting_script.py", line 120, in _find_and_click_tree
+    color_regions = self.engine.color.find_color_region(
+        screen, self.tree_color,
+        search_region=self.search_region, min_area=60
+    )
+  File "C:\Users\Dysle\Documents\Interception\AHK v1\OSRS_Suite\osrs_suite_fixed\core\color_detection.py", line 117, in find_color_region
+    hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+cv2.error: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-03-03 17:05:18,166 [ERROR] WoodcuttingScript: Too many errors. Stopping script.
+2026-03-03 17:05:18,166 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Trees chopped: 0
+2026-03-03 17:05:18,167 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Runtime: 0:00:22 | Actions: 0 | Errors: 11
+2026-03-03 17:05:23,843 [INFO] WoodcuttingScript: [WoodcuttingScript] Stop requested.
+2026-03-03 17:12:55,003 [INFO] WoodcuttingScript: [WoodcuttingScript] Stop requested.
+2026-03-03 17:12:55,003 [INFO] core.engine: [Engine] Stopping...
+2026-03-03 17:28:47,372 [INFO] core.engine: [Engine] Initializing subsystems...
+2026-03-03 17:28:48,681 [DEBUG] core.pathfinding: [Pathfinding] Loaded 62 locations
+2026-03-03 17:28:48,682 [INFO] core.engine: [Engine] All subsystems initialized.
+2026-03-03 17:28:48,682 [INFO] core.engine: [Engine] Starting...
+2026-03-03 17:28:48,684 [INFO] core.engine: [Engine] Game window found: 'RuneLite'
+2026-03-03 17:28:48,730 [INFO] core.engine: [Engine] Ready.
+2026-03-03 17:28:48,763 [INFO] WoodcuttingScript: [WoodcuttingScript] Starting...
+2026-03-03 17:28:48,764 [INFO] WoodcuttingScript: [WoodcuttingScript] Woodcutting script starting. Tree: oak
+2026-03-03 17:28:48,783 [INFO] gui.hub: [Hub] Started: Woodcutting
+2026-03-03 17:28:51,727 [INFO] WoodcuttingScript: [WoodcuttingScript] Setup complete. Entering main loop.
+2026-03-03 17:29:55,509 [INFO] WoodcuttingScript: [WoodcuttingScript] Stop requested.
+2026-03-03 17:29:56,014 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Trees chopped: 0
+2026-03-03 17:29:56,015 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Runtime: 0:01:07 | Actions: 58 | Errors: 0
+2026-03-03 17:32:59,849 [INFO] WoodcuttingScript: [WoodcuttingScript] Stop requested.
+2026-03-03 17:32:59,849 [INFO] core.engine: [Engine] Stopping...
+2026-03-03 17:38:12,882 [INFO] core.engine: [Engine] Initializing subsystems...
+2026-03-03 17:38:14,351 [DEBUG] core.pathfinding: [Pathfinding] Loaded 103 locations
+2026-03-03 17:38:14,352 [INFO] core.engine: [Engine] All subsystems initialized.
+2026-03-03 17:38:14,352 [INFO] core.engine: [Engine] Starting...
+2026-03-03 17:38:14,353 [INFO] core.engine: [Engine] Game window found: 'RuneLite'
+2026-03-03 17:38:14,401 [INFO] core.engine: [Engine] Ready.
+2026-03-03 17:38:14,421 [INFO] WoodcuttingScript: [WoodcuttingScript] Starting...
+2026-03-03 17:38:14,428 [INFO] WoodcuttingScript: [WoodcuttingScript] Woodcutting script starting. Tree: oak
+2026-03-03 17:38:14,440 [INFO] gui.hub: [Hub] Started: Woodcutting
+2026-03-03 17:38:17,303 [INFO] WoodcuttingScript: [WoodcuttingScript] Setup complete. Entering main loop.
+2026-03-03 17:38:26,307 [DEBUG] core.antiban: [AntiBan] AFK event: 36.4s
+2026-03-03 17:39:51,601 [INFO] WoodcuttingScript: [WoodcuttingScript] Stop requested.
+2026-03-03 17:39:52,423 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Trees chopped: 0
+2026-03-03 17:39:52,423 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Runtime: 0:01:37 | Actions: 52 | Errors: 0
+2026-03-03 17:45:31,890 [INFO] WoodcuttingScript: [WoodcuttingScript] Stop requested.
+2026-03-03 17:45:31,890 [INFO] core.engine: [Engine] Stopping...
+2026-03-03 17:45:54,931 [INFO] core.engine: [Engine] Initializing subsystems...
+2026-03-03 17:45:56,334 [DEBUG] core.pathfinding: [Pathfinding] Loaded 103 locations
+2026-03-03 17:45:56,334 [INFO] core.engine: [Engine] All subsystems initialized.
+2026-03-03 17:45:56,334 [INFO] core.engine: [Engine] Starting...
+2026-03-03 17:45:56,336 [INFO] core.engine: [Engine] Game window found: 'RuneLite'
+2026-03-03 17:45:56,381 [INFO] core.engine: [Engine] Ready.
+2026-03-03 17:45:56,412 [INFO] WoodcuttingScript: [WoodcuttingScript] Starting...
+2026-03-03 17:45:56,412 [INFO] WoodcuttingScript: [WoodcuttingScript] Woodcutting script starting. Tree: oak
+2026-03-03 17:45:56,432 [INFO] gui.hub: [Hub] Started: Woodcutting
+2026-03-03 17:45:59,495 [INFO] WoodcuttingScript: [WoodcuttingScript] Setup complete. Entering main loop.
+2026-03-03 17:46:09,102 [DEBUG] core.antiban: [AntiBan] Micro break: 5.2s
+2026-03-03 17:46:26,293 [DEBUG] core.antiban: [AntiBan] Micro break: 4.9s
+2026-03-03 17:46:36,503 [INFO] WoodcuttingScript: [WoodcuttingScript] Stop requested.
+2026-03-03 17:46:37,455 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Trees chopped: 0
+2026-03-03 17:46:37,455 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Runtime: 0:00:41 | Actions: 22 | Errors: 0
+2026-03-03 17:52:58,186 [INFO] WoodcuttingScript: [WoodcuttingScript] Stop requested.
+2026-03-03 17:52:58,187 [INFO] core.engine: [Engine] Stopping...
+2026-03-03 17:54:39,375 [INFO] core.engine: [Engine] Initializing subsystems...
+2026-03-03 17:54:40,852 [DEBUG] core.pathfinding: [Pathfinding] Loaded 103 locations
+2026-03-03 17:54:40,852 [INFO] core.engine: [Engine] All subsystems initialized.
+2026-03-03 17:54:40,852 [INFO] core.engine: [Engine] Starting...
+2026-03-03 17:54:40,854 [INFO] core.engine: [Engine] Game window found: 'RuneLite'
+2026-03-03 17:54:40,893 [INFO] core.engine: [Engine] Ready.
+2026-03-03 17:54:40,899 [INFO] WoodcuttingScript: [WoodcuttingScript] Starting...
+2026-03-03 17:54:40,901 [INFO] WoodcuttingScript: [WoodcuttingScript] Woodcutting script starting. Tree: oak
+2026-03-03 17:54:40,933 [INFO] gui.hub: [Hub] Started: Woodcutting
+2026-03-03 17:54:44,085 [INFO] WoodcuttingScript: [WoodcuttingScript] Setup complete. Entering main loop.
+2026-03-03 17:55:17,880 [DEBUG] core.antiban: [AntiBan] AFK event: 29.5s
+2026-03-03 17:55:50,961 [DEBUG] core.antiban: [AntiBan] AFK event: 42.7s
+2026-03-03 17:56:05,311 [INFO] WoodcuttingScript: [WoodcuttingScript] Stop requested.
+2026-03-03 17:56:34,814 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Trees chopped: 0
+2026-03-03 17:56:34,814 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Runtime: 0:01:53 | Actions: 31 | Errors: 0
+2026-03-03 17:59:17,985 [INFO] WoodcuttingScript: [WoodcuttingScript] Stop requested.
+2026-03-03 17:59:17,985 [INFO] core.engine: [Engine] Stopping...
+2026-03-03 17:59:33,666 [INFO] core.engine: [Engine] Initializing subsystems...
+2026-03-03 17:59:35,106 [DEBUG] core.pathfinding: [Pathfinding] Loaded 103 locations
+2026-03-03 17:59:35,106 [INFO] core.engine: [Engine] All subsystems initialized.
+2026-03-03 17:59:35,106 [INFO] core.engine: [Engine] Starting...
+2026-03-03 17:59:35,108 [INFO] core.engine: [Engine] Game window found: 'RuneLite'
+2026-03-03 17:59:35,149 [INFO] core.engine: [Engine] Ready.
+2026-03-03 17:59:35,171 [INFO] WoodcuttingScript: [WoodcuttingScript] Starting...
+2026-03-03 17:59:35,171 [INFO] WoodcuttingScript: [WoodcuttingScript] Woodcutting script starting. Tree: oak
+2026-03-03 17:59:35,197 [INFO] gui.hub: [Hub] Started: Woodcutting
+2026-03-03 17:59:38,095 [INFO] WoodcuttingScript: [WoodcuttingScript] Setup complete. Entering main loop.
+2026-03-03 17:59:51,911 [INFO] WoodcuttingScript: [WoodcuttingScript] Stop requested.
+2026-03-03 17:59:51,934 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Trees chopped: 0
+2026-03-03 17:59:51,934 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Runtime: 0:00:16 | Actions: 8 | Errors: 0
+2026-03-03 18:00:05,732 [INFO] WoodcuttingScript: [WoodcuttingScript] Starting...
+2026-03-03 18:00:05,732 [INFO] WoodcuttingScript: [WoodcuttingScript] Woodcutting script starting. Tree: oak
+2026-03-03 18:00:05,735 [INFO] gui.hub: [Hub] Started: Woodcutting
+2026-03-03 18:00:08,563 [INFO] WoodcuttingScript: [WoodcuttingScript] Setup complete. Entering main loop.
+2026-03-03 18:00:15,768 [DEBUG] core.antiban: [AntiBan] Micro break: 7.4s
+2026-03-03 18:00:28,522 [INFO] WoodcuttingScript: [WoodcuttingScript] Stop requested.
+2026-03-03 18:00:29,149 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Trees chopped: 0
+2026-03-03 18:00:29,150 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Runtime: 0:00:23 | Actions: 11 | Errors: 0
+2026-03-03 18:02:21,443 [INFO] WoodcuttingScript: [WoodcuttingScript] Stop requested.
+2026-03-03 18:02:21,443 [INFO] core.engine: [Engine] Stopping...
+2026-03-03 18:02:36,388 [INFO] core.engine: [Engine] Initializing subsystems...
+2026-03-03 18:02:37,849 [DEBUG] core.pathfinding: [Pathfinding] Loaded 103 locations
+2026-03-03 18:02:37,849 [INFO] core.engine: [Engine] All subsystems initialized.
+2026-03-03 18:02:37,850 [INFO] core.engine: [Engine] Starting...
+2026-03-03 18:02:37,851 [INFO] core.engine: [Engine] Game window found: 'RuneLite'
+2026-03-03 18:02:37,909 [INFO] core.engine: [Engine] Ready.
+2026-03-03 18:02:37,918 [INFO] WoodcuttingScript: [WoodcuttingScript] Starting...
+2026-03-03 18:02:37,921 [INFO] WoodcuttingScript: [WoodcuttingScript] Woodcutting script starting. Tree: oak
+2026-03-03 18:02:37,950 [INFO] gui.hub: [Hub] Started: Woodcutting
+2026-03-03 18:02:40,773 [INFO] WoodcuttingScript: [WoodcuttingScript] Setup complete. Entering main loop.
+2026-03-03 18:02:40,774 [DEBUG] core.antiban: [AntiBan] AFK event: 44.3s
+2026-03-03 18:02:56,016 [INFO] WoodcuttingScript: [WoodcuttingScript] Stop requested.
+2026-03-03 18:03:25,075 [INFO] WoodcuttingScript: [WoodcuttingScript] loop() tick — state=FIND_TREE screen=None
+2026-03-03 18:03:26,277 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Trees chopped: 0
+2026-03-03 18:03:26,278 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Runtime: 0:00:48 | Actions: 1 | Errors: 0
+2026-03-03 18:04:53,621 [INFO] WoodcuttingScript: [WoodcuttingScript] Stop requested.
+2026-03-03 18:04:53,622 [INFO] core.engine: [Engine] Stopping...
+2026-03-03 18:05:18,128 [INFO] core.engine: [Engine] Initializing subsystems...
+2026-03-03 18:05:19,500 [DEBUG] core.pathfinding: [Pathfinding] Loaded 103 locations
+2026-03-03 18:05:19,500 [INFO] core.engine: [Engine] All subsystems initialized.
+2026-03-03 18:05:19,500 [INFO] core.engine: [Engine] Starting...
+2026-03-03 18:05:19,503 [INFO] core.engine: [Engine] Game window found: 'RuneLite'
+2026-03-03 18:05:19,546 [INFO] core.engine: [Engine] Ready.
+2026-03-03 18:05:19,553 [INFO] WoodcuttingScript: [WoodcuttingScript] Starting...
+2026-03-03 18:05:19,556 [INFO] WoodcuttingScript: [WoodcuttingScript] Woodcutting script starting. Tree: oak
+2026-03-03 18:05:19,590 [INFO] gui.hub: [Hub] Started: Woodcutting
+2026-03-03 18:05:22,892 [INFO] WoodcuttingScript: [WoodcuttingScript] Setup complete. Entering main loop.
+2026-03-03 18:05:22,893 [INFO] WoodcuttingScript: [WoodcuttingScript] loop() tick — state=FIND_TREE screen=None
+2026-03-03 18:05:24,094 [INFO] WoodcuttingScript: [WoodcuttingScript] loop() tick — state=FIND_TREE screen=None
+2026-03-03 18:05:25,295 [INFO] WoodcuttingScript: [WoodcuttingScript] loop() tick — state=FIND_TREE screen=None
+2026-03-03 18:05:27,922 [INFO] WoodcuttingScript: [WoodcuttingScript] loop() tick — state=FIND_TREE screen=None
+2026-03-03 18:05:29,123 [INFO] WoodcuttingScript: [WoodcuttingScript] loop() tick — state=FIND_TREE screen=None
+2026-03-03 18:05:30,325 [INFO] WoodcuttingScript: [WoodcuttingScript] loop() tick — state=FIND_TREE screen=None
+2026-03-03 18:05:31,526 [INFO] WoodcuttingScript: [WoodcuttingScript] loop() tick — state=FIND_TREE screen=None
+2026-03-03 18:05:32,379 [INFO] WoodcuttingScript: [WoodcuttingScript] Stop requested.
+2026-03-03 18:05:32,727 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Trees chopped: 0
+2026-03-03 18:05:32,727 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Runtime: 0:00:13 | Actions: 7 | Errors: 0
+2026-03-03 18:10:53,325 [INFO] WoodcuttingScript: [WoodcuttingScript] Stop requested.
+2026-03-03 18:10:53,326 [INFO] core.engine: [Engine] Stopping...
+2026-03-03 18:13:27,999 [INFO] core.engine: [Engine] Initializing subsystems...
+2026-03-03 18:13:29,354 [DEBUG] core.pathfinding: [Pathfinding] Loaded 103 locations
+2026-03-03 18:13:29,354 [INFO] core.engine: [Engine] All subsystems initialized.
+2026-03-03 18:13:29,355 [INFO] core.engine: [Engine] Starting...
+2026-03-03 18:13:29,357 [INFO] core.engine: [Engine] Game window found: 'RuneLite'
+2026-03-03 18:13:29,403 [INFO] core.engine: [Engine] Ready.
+2026-03-03 18:13:29,408 [INFO] WoodcuttingScript: [WoodcuttingScript] Starting...
+2026-03-03 18:13:29,409 [INFO] WoodcuttingScript: [WoodcuttingScript] Woodcutting script starting. Tree: oak
+2026-03-03 18:13:29,448 [INFO] gui.hub: [Hub] Started: Woodcutting
+2026-03-03 18:13:32,272 [INFO] WoodcuttingScript: [WoodcuttingScript] Setup complete. Entering main loop.
+2026-03-03 18:13:32,273 [INFO] WoodcuttingScript: [WoodcuttingScript] loop() tick — state=FIND_TREE screen=None
+2026-03-03 18:13:33,474 [INFO] WoodcuttingScript: [WoodcuttingScript] loop() tick — state=FIND_TREE screen=None
+2026-03-03 18:13:34,675 [INFO] WoodcuttingScript: [WoodcuttingScript] loop() tick — state=FIND_TREE screen=None
+2026-03-03 18:13:35,876 [INFO] WoodcuttingScript: [WoodcuttingScript] loop() tick — state=FIND_TREE screen=None
+2026-03-03 18:13:36,455 [INFO] WoodcuttingScript: [WoodcuttingScript] Stop requested.
+2026-03-03 18:13:37,077 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Trees chopped: 0
+2026-03-03 18:13:37,077 [INFO] WoodcuttingScript: [WoodcuttingScript] Stopped. Runtime: 0:00:07 | Actions: 4 | Errors: 0

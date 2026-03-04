@@ -1,0 +1,23 @@
+{
+    "name": "casual",
+    "break_enabled": true,
+    "break_interval_min": 900,
+    "break_interval_max": 2700,
+    "break_duration_min": 30,
+    "break_duration_max": 300,
+    "micro_break_chance": 0.06,
+    "afk_chance": 0.04,
+    "misclick_chance": 0.008,
+    "camera_move_chance": 0.05,
+    "hover_nearby_chance": 0.04,
+    "fatigue_enabled": true,
+    "fatigue_curve": "logarithmic",
+    "session_max_hours": 8.0,
+    "action_delay_min": 0.35,
+    "action_delay_max": 1.2,
+    "reaction_time_min": 0.15,
+    "reaction_time_max": 0.55,
+    "mouse_speed_min": 0.08,
+    "mouse_speed_max": 0.35,
+    "target_miss_chance": 0.01
+}

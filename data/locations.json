@@ -1,0 +1,414 @@
+{
+  "grand_exchange_bank": [
+    3164,
+    3487
+  ],
+  "edgeville_bank": [
+    3094,
+    3491
+  ],
+  "varrock_west_bank": [
+    3183,
+    3441
+  ],
+  "varrock_east_bank": [
+    3253,
+    3420
+  ],
+  "falador_east_bank": [
+    3013,
+    3355
+  ],
+  "falador_west_bank": [
+    2946,
+    3368
+  ],
+  "lumbridge_bank": [
+    3208,
+    3220
+  ],
+  "draynor_bank": [
+    3092,
+    3243
+  ],
+  "al_kharid_bank": [
+    3269,
+    3167
+  ],
+  "castle_wars_bank": [
+    2443,
+    3083
+  ],
+  "catherby_bank": [
+    2808,
+    3441
+  ],
+  "ardougne_north_bank": [
+    2615,
+    3332
+  ],
+  "seers_bank": [
+    2727,
+    3493
+  ],
+  "canifis_bank": [
+    3512,
+    3480
+  ],
+  "al_kharid_range": [
+    3274,
+    3180
+  ],
+  "lumbridge_range": [
+    3209,
+    3215
+  ],
+  "edgeville_furnace": [
+    3106,
+    3499
+  ],
+  "falador_furnace": [
+    2970,
+    3371
+  ],
+  "varrock_anvil": [
+    3188,
+    3428
+  ],
+  "falador_anvil": [
+    2970,
+    3369
+  ],
+  "gnome_stronghold": [
+    2474,
+    3436
+  ],
+  "draynor_agility": [
+    3103,
+    3279
+  ],
+  "al_kharid_agility": [
+    3273,
+    3195
+  ],
+  "varrock_agility": [
+    3221,
+    3414
+  ],
+  "canifis_agility": [
+    3508,
+    3492
+  ],
+  "falador_agility": [
+    3036,
+    3341
+  ],
+  "seers_agility": [
+    2729,
+    3489
+  ],
+  "ardougne_agility": [
+    2673,
+    3298
+  ],
+  "falador_farm": [
+    3058,
+    3307
+  ],
+  "ardougne_farm": [
+    2662,
+    3374
+  ],
+  "catherby_farm": [
+    2812,
+    3462
+  ],
+  "canifis_farm": [
+    3518,
+    3460
+  ],
+  "hosidius_farm": [
+    1738,
+    3551
+  ],
+  "farming_guild": [
+    1248,
+    3724
+  ],
+  "harmony_island": [
+    3795,
+    2837
+  ],
+  "weiss_farm": [
+    2848,
+    3935
+  ],
+  "troll_stronghold": [
+    2826,
+    3695
+  ],
+  "lumbridge_farm": [
+    3227,
+    3295
+  ],
+  "varrock_palace": [
+    3229,
+    3459
+  ],
+  "taverley_farm": [
+    2934,
+    3438
+  ],
+  "piscatoris": [
+    2341,
+    3600
+  ],
+  "feldip_hills": [
+    2563,
+    2914
+  ],
+  "elf_land": [
+    2209,
+    3331
+  ],
+  "mudskipper_point": [
+    2991,
+    3109
+  ],
+  "verdant_valley": [
+    3770,
+    3870
+  ],
+  "mushroom_forest": [
+    3761,
+    3859
+  ],
+  "the_stranglewood": [
+    3815,
+    3853
+  ],
+  "castle_wars": [
+    2443,
+    3083
+  ],
+  "air_altar": [
+    2841,
+    4829
+  ],
+  "mind_altar": [
+    2793,
+    4827
+  ],
+  "water_altar": [
+    3151,
+    3156
+  ],
+  "earth_altar": [
+    3305,
+    3474
+  ],
+  "fire_altar": [
+    3311,
+    3255
+  ],
+  "body_altar": [
+    3054,
+    3444
+  ],
+  "cosmic_altar": [
+    2162,
+    4833
+  ],
+  "chaos_altar": [
+    3058,
+    4842
+  ],
+  "nature_altar": [
+    2400,
+    4835
+  ],
+  "law_altar": [
+    2464,
+    4818
+  ],
+  "death_altar": [
+    1866,
+    4639
+  ],
+  "blood_altar": [
+    1712,
+    3820
+  ],
+  "gilded_altar_house": [
+    2952,
+    3224
+  ],
+  "house_party_bank": [
+    2955,
+    3222
+  ],
+  "lumbridge_trees": [
+    3178,
+    3243
+  ],
+  "draynor_willows": [
+    3087,
+    3231
+  ],
+  "barbarian_village_oaks": [
+    3081,
+    3425
+  ],
+  "varrock_oaks": [
+    3274,
+    3425
+  ],
+  "rimmington_oaks": [
+    2974,
+    3246
+  ],
+  "draynor_willows_south": [
+    3084,
+    3222
+  ],
+  "barbarian_willows": [
+    3062,
+    3520
+  ],
+  "catherby_willows": [
+    2838,
+    3440
+  ],
+  "seers_maples": [
+    2725,
+    3500
+  ],
+  "corsair_cove_maples": [
+    2509,
+    2870
+  ],
+  "edgeville_yews": [
+    3086,
+    3473
+  ],
+  "falador_yews": [
+    2998,
+    3312
+  ],
+  "varrock_palace_yews": [
+    3228,
+    3458
+  ],
+  "catherby_yews": [
+    2763,
+    3445
+  ],
+  "seers_yews": [
+    2707,
+    3461
+  ],
+  "seers_magic": [
+    2695,
+    3424
+  ],
+  "sorcerers_garden_magic": [
+    3192,
+    3320
+  ],
+  "lletya_magic": [
+    2354,
+    3163
+  ],
+  "tai_bwo_wannai_teak": [
+    2822,
+    3077
+  ],
+  "hardwood_grove_teak": [
+    3714,
+    3839
+  ],
+  "tai_bwo_wannai_mahogany": [
+    2809,
+    3073
+  ],
+  "hardwood_grove_mahogany": [
+    3713,
+    3836
+  ],
+  "lumbridge_swamp_mine": [
+    3228,
+    3148
+  ],
+  "varrock_south_mine": [
+    3176,
+    3370
+  ],
+  "al_kharid_mine": [
+    3299,
+    3312
+  ],
+  "rimmington_mine": [
+    2980,
+    3239
+  ],
+  "south_varrock_iron": [
+    3176,
+    3368
+  ],
+  "east_varrock_iron": [
+    3285,
+    3365
+  ],
+  "piscatoris_iron": [
+    2327,
+    3688
+  ],
+  "legends_guild_mine": [
+    2731,
+    3370
+  ],
+  "mining_guild_coal": [
+    3016,
+    9718
+  ],
+  "barbarian_village_coal": [
+    3081,
+    3421
+  ],
+  "seers_coal": [
+    2661,
+    3479
+  ],
+  "mining_guild_mithril": [
+    3019,
+    9714
+  ],
+  "falador_mithril": [
+    2910,
+    3358
+  ],
+  "troll_stronghold_mithril": [
+    2839,
+    3692
+  ],
+  "mining_guild_adamant": [
+    3024,
+    9714
+  ],
+  "wilderness_resource_adamant": [
+    3184,
+    3944
+  ],
+  "mining_guild_rune": [
+    3020,
+    9710
+  ],
+  "lava_maze_rune": [
+    3059,
+    3891
+  ],
+  "heroes_guild_rune": [
+    2900,
+    9891
+  ]
+}
