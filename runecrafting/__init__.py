@@ -1,0 +1,1 @@
+"""runecrafting scripts package."""

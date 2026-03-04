@@ -1,0 +1,174 @@
+{
+  "game_window_title": "RuneLite",
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "layout": "resizable_modern",
+  "capture_method": "mss",
+  "input_method": "interception",
+  "overlay_enabled": true,
+  "antiban_profile": "default",
+  "global_settings": {
+    "mouse_speed_min": 0.08,
+    "mouse_speed_max": 0.35,
+    "click_delay_min": 45,
+    "click_delay_max": 180,
+    "action_delay_min": 200,
+    "action_delay_max": 800,
+    "idle_threshold_ms": 600,
+    "break_enabled": true,
+    "break_interval_min_minutes": 25,
+    "break_interval_max_minutes": 90,
+    "break_duration_min_seconds": 30,
+    "break_duration_max_seconds": 300,
+    "micro_break_chance": 0.005,
+    "afk_chance": 0.0005,
+    "misclick_chance": 0.008,
+    "camera_move_chance": 0.05,
+    "fatigue_enabled": true,
+    "fatigue_curve": "logarithmic",
+    "session_max_hours": 6
+  },
+  "regions": {
+    "game_view": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "inventory": [
+      1630,
+      621,
+      280,
+      260
+    ],
+    "minimap": [
+      1714,
+      0,
+      206,
+      206
+    ],
+    "chatbox": [
+      0,
+      870,
+      519,
+      210
+    ],
+    "prayer_orb": [
+      1586,
+      94,
+      30,
+      30
+    ],
+    "health_orb": [
+      1549,
+      52,
+      30,
+      30
+    ],
+    "run_orb": [
+      1584,
+      137,
+      30,
+      30
+    ],
+    "spec_orb": [
+      1576,
+      176,
+      30,
+      30
+    ],
+    "tabs": {
+      "combat": [
+        1574,
+        590,
+        33,
+        33
+      ],
+      "stats": [
+        1607,
+        590,
+        33,
+        33
+      ],
+      "quests": [
+        1640,
+        590,
+        33,
+        33
+      ],
+      "inventory": [
+        1673,
+        590,
+        33,
+        33
+      ],
+      "equipment": [
+        1706,
+        590,
+        33,
+        33
+      ],
+      "prayer": [
+        1739,
+        590,
+        33,
+        33
+      ],
+      "magic": [
+        1772,
+        590,
+        33,
+        33
+      ],
+      "clan": [
+        1574,
+        870,
+        33,
+        33
+      ],
+      "friends": [
+        1607,
+        870,
+        33,
+        33
+      ],
+      "account": [
+        1640,
+        870,
+        33,
+        33
+      ],
+      "logout": [
+        1673,
+        870,
+        33,
+        33
+      ],
+      "settings": [
+        1706,
+        870,
+        33,
+        33
+      ],
+      "emotes": [
+        1739,
+        870,
+        33,
+        33
+      ],
+      "music": [
+        1772,
+        870,
+        33,
+        33
+      ]
+    }
+  },
+  "game_window_titles": [
+    "RuneLite",
+    "Old School RuneScape",
+    "HDOS"
+  ]
+}

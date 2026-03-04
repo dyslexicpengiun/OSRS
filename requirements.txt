@@ -1,0 +1,36 @@
+# OSRS Automation Suite — Python Dependencies
+# Install with: pip install -r requirements.txt
+#
+# Windows is required for ctypes.windll (SendInput, FindWindow, etc.)
+# Python 3.9+ required.
+
+# ─── Core vision ─────────────────────────────────────────────────────────────
+numpy>=1.24,<2.0          # Array operations, image data
+opencv-python>=4.8        # Template matching, contours, color spaces
+Pillow>=10.0              # Image I/O, format conversion
+
+# ─── Screen capture ──────────────────────────────────────────────────────────
+mss>=9.0                  # Fast multi-monitor screen capture
+
+# ─── Input ───────────────────────────────────────────────────────────────────
+pywin32>=306              # Windows API: FindWindow, SendInput fallback, HWND ops
+# interception-python     # Hardware-level input (OPTIONAL — needs driver install)
+#                         # See setup_interception.py for installation instructions
+
+# ─── OCR ─────────────────────────────────────────────────────────────────────
+easyocr>=1.7              # Text recognition (downloads ~500MB models on first use)
+rapidfuzz>=3.0            # Fuzzy string matching for menu text
+
+# ─── Math / curves ───────────────────────────────────────────────────────────
+scipy>=1.10               # Cubic spline interpolation for mouse curves
+
+# ─── GUI ─────────────────────────────────────────────────────────────────────
+customtkinter>=5.2        # Modern dark-themed tkinter widgets
+# tkinter is part of standard library — no pip install needed
+
+# ─── Utilities ───────────────────────────────────────────────────────────────
+psutil>=5.9               # Process monitoring (optional — for FPS/memory stats)
+
+# ─── Dev / debugging (optional) ──────────────────────────────────────────────
+# matplotlib              # Useful for visualizing color ranges and histograms
+# ipython                 # Better REPL for quick_test.py

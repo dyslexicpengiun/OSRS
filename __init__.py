@@ -1,0 +1,1 @@
+"""OSRS Automation Suite"""
